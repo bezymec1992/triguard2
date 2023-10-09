@@ -2,9 +2,6 @@ body {
     max-width: 480px;
     margin: 0 auto;
 }
-/* *{
-    border: 1px solid black;
-} */
 
 main,
 .main {
@@ -23,7 +20,6 @@ main,
 .logo {
     display: block;
     margin: 0 auto;
-    /* padding-top: 32px; */
 }
 
 .main__title {
@@ -1168,5 +1164,16 @@ input::placeholder {
     width: 100%;
     padding-top: 0;
     padding-bottom: 40px;
+}
 
+@media screen and (width < 410px) {
+    .main__title,
+    .sign__title2,
+    .company__title{
+        font-size: 28px;
+    }
+    
+    .vs__txt {
+        font-size: 18px;
+    }
 }
